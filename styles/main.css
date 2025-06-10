@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: brown;
+  padding-bottom: 45px;
+  background-image: url('/Media/fondo.webp');
+  background-size:cover;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content:space-between;
+  padding: 1px;
+  background-color: #faebd7;
+}
+
+h1 {
+  font-size: 60px;
+  color: #a52a2a;
+}
+
+.elemento-nav {
+  padding: 5px;
+  margin: 2px;
+  border-radius: 5px;
+
+  color: #a52a2a;
+  text-decoration: none;
+}
+
+.elemento-nav:hover {
+  border: 1px solid #a52a2a;
+}
+
+main {
+  margin: 4px;
+  border: 1px solid #a52a2a;
+  border-radius: 5px;
+  background-color: #faebd7;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  border: 1px solid black;
+  color:#a52a2a;
+  padding: 5px;
+  flex: 1 1 33%;
+  margin: 1px;
+}
+
+footer {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  height: 45px;
+  width: 100%;
+  background-color: #faebd7;
+  border-top: 1px solid #a52a2a;
+}
+
+footer>p{
+    color:#a52a2a;
+    font-size: 20px;
+}
+
+.logo{
+    background-color: #a52a2a;
+    height: 50px;
+    width: 40px;
+}
+
+@media (max-width: 700px) {
+  header , .row{
+    flex-direction: column;
+  }
+}
