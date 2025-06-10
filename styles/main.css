@@ -7,7 +7,7 @@
 body {
   background-color: brown;
   padding-bottom: 45px;
-  background-image: url('/Media/fondo.webp');
+  background-image: url('/media/fondo.webp');
   background-size:cover;
 }
 
